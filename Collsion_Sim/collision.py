@@ -121,8 +121,8 @@ def particle_collision(p1, p2, restitution):
 def initial_particles(restitution):
     color = (int(255*(1-restitution)), int(255*restitution), 0)
     return [
-        Particle(300, 300, 0, 0, 1, 1, color),
-        Particle(650, 300, 100, 180, 10000, 100, color),
+        Particle(300, 300, 100, 0, 10, 20, color),
+        Particle(650, 300, 0, 180, 10, 20, color),
     ]
 
 def main():
