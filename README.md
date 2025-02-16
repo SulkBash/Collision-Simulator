@@ -5,7 +5,8 @@
 
 A sophisticated 2D physics simulator that models elastic and inelastic collisions between multiple particles with real-time visualization. Perfect for demonstrating fundamental physics principles and computational physics implementations.
 
-![Collision Simulation Demo](demo.gif)
+Elastic Collision:
+![Collision Simulation Demo](Collision_Sim/demoe.gif)
 
 ## ✨ Features
 
