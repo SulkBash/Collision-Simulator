@@ -65,9 +65,9 @@ J = J_1 = - J_2 = \lambda \hat{n}
 e = \dfrac{v'_{1n}-v'_{2n}}{v_{1n}-v_{2n}}
 ```
 
-### 3. Equations of Final Velocities
-Combining these 3 equations one can solve for the final velocities
+Combining these 3 equations one can solve for the:
 
+### 3. Equations of Final Velocities
 ```math
 \vec{v'_1} = \vec{v_1} + \dfrac{m_2}{m_1+m_2}(e+1)((\vec{v_2}-\vec{v_1})\cdot \hat{n})\hat{n}
 ```
