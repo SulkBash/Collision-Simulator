@@ -64,6 +64,7 @@ def wall_collision(particle, width, height, restitution):
     elif particle.x > width - particle.radius:
         particle.x = width - particle.radius
         particle.vx *= -restitution
+        return True
     # Vertical Walls
     if particle.y < particle.radius:
         particle.y = particle.radius
