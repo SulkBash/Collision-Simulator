@@ -266,10 +266,10 @@ def main():
             txt = header_font.render("Selected Particle", True, (255,255,255))
             screen.blit(txt, (WIDTH-PANEL_WIDTH+10, prop_y-40))
             props = [
-                ("X Position", "x", selected_particle.x, 0, WIDTH-PANEL_WIDTH, 5),
-                ("Y Position", "y", HEIGHT - selected_particle.y, 0, HEIGHT, 5),
-                ("H. Velocity", "vx", selected_particle.vx, -10000, 10000, 5),
-                ("V. Velocity", "vy", -selected_particle.vy, -1000, 1000, 5),
+                ("X Position", "x", selected_particle.x, 0, WIDTH-PANEL_WIDTH, 1),
+                ("Y Position", "y", HEIGHT - selected_particle.y, 0, HEIGHT, 1),
+                ("H. Velocity", "vx", selected_particle.vx, -10000, 10000, 1),
+                ("V. Velocity", "vy", -selected_particle.vy, -1000, 1000, 1),
                 ("Mass", "mass", selected_particle.mass, 1, 10000, 1),
                 ("Radius", "radius", selected_particle.radius, 1, 100, 1),
             ]
