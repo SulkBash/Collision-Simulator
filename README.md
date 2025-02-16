@@ -7,11 +7,11 @@ A sophisticated 2D physics simulator that models elastic and inelastic collision
 
 Elastic Collision:
 
-![Collision Simulation Demo](Collision_Sim/demoe.gif)
+![Elastic Collision Simulation Demo](Collision_Sim/demoe.gif)
 
 Totally Inelastic Collision of 3 Particles at an Angle:
 
-
+![Totally Inelastic Collision Simulation Demo](Collision_Sim/demoi.gif)
 
 ## ✨ Features
 
