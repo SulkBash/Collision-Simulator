@@ -1,0 +1,7 @@
+# Minimum requirements
+pygame>=2.0.1
+numpy>=1.21.0
+
+# Optional
+matplotlib>=3.5.0  # For analytics
+pytest>=7.0.0      # For testing framework
